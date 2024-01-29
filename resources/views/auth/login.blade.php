@@ -5,7 +5,9 @@
         @include('theme.style')
         <style>
             body{
-                background: linear-gradient(rgba(62, 64, 219, 0.85), rgba(41, 26, 180, 0.85));
+                background: url('{{ asset('') }}/assets/images/bg.jfif');
+                background-size: cover;
+                background-position: bottom;
                 width: 100%;
             }
             .cover-panel{
@@ -20,11 +22,14 @@
             <div class="col-lg-8 col-md-10 col-11">
                 <div class="d-flex align-items-center bg-primary rounded overflow-hidden">
                     <div class="col-md-6 bg-white d-md-block d-none">
-                        <div>
-                            <img src="{{ asset('') }}assets/images/background.jfif" alt="login-picture" width="100%">
+                        <div class="mx-3 my-5 py-5">
+                            <img src="{{ asset('') }}assets/images/logo.png" alt="login-picture" width="50%" style="margin-left: 25%">
                         </div>
                     </div>
                     <div class="col-md-6 col-12">
+                        <div class="bg-white py-2 d-md-none">
+                            <img src="{{ asset('') }}assets/images/logo.png" alt="login-picture" width="40%" style="margin-left: 30%">
+                        </div>
                         <form action="" method="post" class="text-white m-3">
                             @csrf
                             <h2 class="text-white">Login</h2>

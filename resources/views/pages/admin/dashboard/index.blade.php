@@ -5,7 +5,7 @@
 <div class="row">
     <div class="col-12 mb-3">
         <div class="card p-3">
-            <h4 class="text-center mb-0">Aplikasi evaluasi kepuasan mahasiswa terhadap layanan Perpustakaan kampus Universitas Dirgantara Marsekal Suryadarma</h4>
+            <h4 class="text-center mb-0">Aplikasi evaluasi kepuasan mahasiswa terhadap layanan Perpustakaan kampus<br>Universitas Dirgantara Marsekal Suryadarma</h4>
         </div>
     </div>
     <div class="col-md-9 mb-4 order-0">
