@@ -76,7 +76,8 @@ class UserRules
     {
         $file = $image;
         $nama_file = time().$file->getClientOriginalName();
-        $file->move('assets/images/user',$nama_file);
+        $tujuan_upload = public_path().'/assets/images/user';
+        $file->move($tujuan_upload, $nama_file);
         $saveFile = url('/assets/images/user/'.$nama_file);
         return $saveFile;
     }
